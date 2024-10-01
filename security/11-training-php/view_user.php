@@ -1,24 +1,26 @@
 <?php
+// Bắt đầu phiên làm việc
+session_start();
+
+// Nhúng mô hình người dùng
 require_once 'models/UserModel.php';
 $userModel = new UserModel();
 
-$user = NULL; //Add new user
-$id = NULL;
+// Định nghĩa khóa bí mật
+$secretKey = "mySecretKey"; // Thay đổi khóa này thành một chuỗi bí mật của bạn
 
-if (!empty($_GET['id'])) {
-    $id = $_GET['id'];
-    $user = $userModel->findUserById($id);//Update existing user
+// Hàm giải mã ID
+function decodeUserId($encodedId, $secretKey) {
+    $data = json_decode(base64_decode($encodedId), true);
+    $combinedId = $data['id'];
+    return str_replace($secretKey, '', $combinedId);
 }
 
-
-if (!empty($_POST['submit'])) {
-
-    if (!empty($id)) {
-        $userModel->updateUser($_POST);
-    } else {
-        $userModel->insertUser($_POST);
-    }
-    header('location: list_users.php');
+// Giải mã ID nếu có trong URL
+$userId = null;
+if (!empty($_GET['id'])) {
+    $userId = decodeUserId($_GET['id'], $secretKey); // Giải mã ID
+    $user = $userModel->findUserById($userId); // Tìm người dùng
 }
 
 ?>
