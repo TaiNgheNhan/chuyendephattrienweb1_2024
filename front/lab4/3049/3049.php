@@ -32,7 +32,7 @@
                 <div class="row my-5">
                     <div class="col-12 col-md-4">
                         <div class="post">
-                            <img src="https://fixar.templines.org/wp-content/uploads/2016/06/dWt1tegCBKUiIdKV.jpeg"
+                            <img src="dWt1tegCBKUiIdKV.jpeg"
                                 alt="Person holding a smartphone with a broken screen">
                             <div class="overlay">
                                 This is the overlay content
@@ -52,7 +52,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="post">
-                            <img src="https://fixar.templines.org/wp-content/uploads/2016/06/Motherboard-Repair.jpg"
+                            <img src="Motherboard-Repair.jpg"
                                 alt="Person holding a smartphone with a broken screen">
                             <div class="overlay">
                                 This is the overlay content
@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="post">
-                            <img src="https://fixar.templines.org/wp-content/uploads/2016/06/tfnchBFIlhgNqeA.jpeg"
+                            <img src="tfnchBFIlhgNqeA.jpeg"
                                 alt="Person holding a smartphone with a broken screen">
                             <div class="overlay">
                                 This is the overlay content
@@ -144,7 +144,7 @@
 
                 <div class="news-item">
                     <img alt="Person repairing an iPhone"
-                        src="https://fixar.templines.org/wp-content/uploads/2016/06/Motherboard-Repair-100x100.jpg" />
+                        src="dWt1tegCBKUiIdKV.jpeg" />
                     <div class="news-content">
                         <h5>How to Repair iPhone: 6 Ways Best Online Guides</h5>
                         <p>February 8, 2017</p>
@@ -152,7 +152,7 @@
                 </div>
                 <div class="news-item">
                     <img alt="Person repairing an iPhone"
-                        src="https://fixar.templines.org/wp-content/uploads/2016/06/dWt1tegCBKUiIdKV-100x100.jpeg" />
+                        src="Motherboard-Repair.jpg" />
                     <div class="news-content">
                         <h5>How to Repair iPhone: 6 Ways Best Online Guides</h5>
                         <p>February 8, 2017</p>
@@ -160,7 +160,7 @@
                 </div>
                 <div class="news-item">
                     <img alt="Person repairing an iPhone"
-                        src="https://fixar.templines.org/wp-content/uploads/2016/06/tfnchBFIlhgNqeA-100x100.jpeg" />
+                        src="tfnchBFIlhgNqeA.jpeg" />
                     <div class="news-content">
                         <h5>How to Repair iPhone: 6 Ways Best Online Guides</h5>
                         <p>February 8, 2017</p>

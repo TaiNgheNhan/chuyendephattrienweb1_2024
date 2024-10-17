@@ -31,7 +31,7 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="<?php echo $url_path ?>/css/3033.css" rel="stylesheet" type="text/css" />
      <style>
-       
+
      </style>
  </head>
 
